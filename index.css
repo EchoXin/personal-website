@@ -1,0 +1,80 @@
+.nav ul {
+    list-style: none;
+    background: linear-gradient(to bottom, rgb(105, 110, 130), rgb(32, 43, 61));
+    text-align: left;
+    padding-bottom: 1.2em;
+    margin: 0;
+}
+
+.nav li {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    margin: 0.6em 1.5em;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.4em;
+}
+
+.nav a:hover {
+    background-color: #5e79a5;
+    border-radius: 0.8em;
+}
+
+.content {
+    height: 700px;
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+iframe {
+    margin-left: 10%;
+    background-color: rgba(105, 110, 130, 0.8);
+    margin-top: 2em;
+    height: 600px;
+    width: 80%;
+    border-radius: 2em;
+}
+
+.about p {
+    padding: 1.2em 2em 0 2em;
+    line-height: 2em;
+    font-family: 'Architects Daughter', cursive;
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.education {
+    color: #fff;
+}
+
+.education h1 {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.education article {
+    padding: 1em 2em;
+}
+
+.contact {
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-top: 2em;
+    font-size: 3em;
+    text-align: center;
+}
+
+.contact #email {
+    color: #fff;
+}
+
+.contact .icon {
+    margin-right: 1.2em;
+}
